@@ -1,0 +1,1062 @@
+/* 
+    Created on : 18-Sep-2017, 23:38:07
+    Author     : DEXTER
+*/
+
+.bodyClass5
+{
+    background-color: rgba(242,250,242, 0.6);    
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/*this style is for generalinfo to users*/
+.generalinfo
+{
+    font-size: 15px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.generalinfo a
+{
+    font-size: 15px;
+    color: yellow;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    animation: movingImage linear 8s infinite 1s alternate;
+}
+
+.generalinfo a:hover
+{
+    color: white;
+    animation: movingImage linear 0s infinite 1s alternate;
+}
+/*this style is for homepage.jsp page*/
+.div1
+{
+    background-color: rgb(0,74,0);
+    color: white;
+    padding: 3px;
+    border-bottom: 1px solid gold;
+}
+.div1 a
+{    
+    color: white;
+    text-decoration: none;
+}
+.div1 div a:hover
+{
+    color: yellow;
+}
+.document
+{
+    text-align: justify;
+    background-color: rgba(232, 255, 245, 0.6);
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+.signup
+{
+    text-align: center;
+    background-color: rgba(238, 255, 239, 0.5);
+    font-size: 15px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+div.signup a
+{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+div.signup a:hover
+{
+    color: blue;
+    font-size: 16px;
+}
+
+.biz
+{
+    clear: both;
+    text-align: center;
+    margin-top: 100px;
+}
+.biz a:hover
+{    
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 1px;
+}
+
+.bizX
+{
+    clear: both;
+    text-align: center;
+}
+.bizX a:hover
+{
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 1px;
+}
+
+.uploadText
+{
+    font-size: 17px;
+    font-weight: bold;
+    color: green;
+    text-decoration: underline;
+}
+.upload
+{
+    background-color: rgba(245, 255, 250, 0.5);
+    padding: 3px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+/*this style is for summarisednews.jsp page*/
+.linknews
+{
+    text-decoration: none;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+.linknews div
+{
+    text-decoration: none;
+    padding: 5px;
+    border-top: 1px solid grey;
+}
+.linknews div a
+{
+    text-decoration: none;
+}
+
+.linknews a:hover
+{
+    text-decoration: underline;
+}
+.linknews div:hover
+{
+    font-weight: bold;
+    color: red;
+    padding: 8px;
+    background-color: rgba(245, 255, 250, 0.9);
+}
+
+/*this style is for newspage.jsp page*/
+.linknewsX
+{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;    
+    font-size: 17px;
+}
+
+.linknewsX a
+{
+    text-decoration: none;
+}
+.linknewsX a:hover
+{
+    color: blue;
+    text-decoration: underline;
+}
+
+.linknews2
+{
+    border: 1px solid grey;
+    border-radius: 3px;
+    max-width: 1000px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;    
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.linknews2 a
+{
+    text-decoration: none;
+}
+.linknews2 a:hover
+{
+    color: blue;
+    text-decoration: underline;
+}
+
+.linknews2 img
+{
+    display: block;
+    margin: 0 auto;
+}
+
+.linknewsAndroid
+{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.linknewsAndroid a
+{
+    text-decoration: none;
+}
+.linknewsAndroid a:hover
+{
+    color: blue;
+    text-decoration: underline;
+}
+
+.linknewsAndroid img
+{
+    display: block;
+    margin: 0 auto;
+}
+
+/*this style is for registeredMember.jsp page*/
+.memberdiv
+{
+    overflow: auto;
+    background-color: rgb(0,74,0);
+    color: white;
+    padding: 2px;
+    text-align: center;
+    border-bottom: 1px solid gold;
+}
+
+.memberdiv a
+{
+    color: white;
+    text-decoration: none;
+}
+.memberdiv a:hover
+{
+    color: yellow;
+}
+
+.document2
+{
+    clear: both;
+    background-color: rgba(232, 255, 245, 0.6);
+    text-align: center;
+    padding: 2px;
+    font-size: 14px;
+    font-family: Monotype Corsiva;
+}
+.document2 a
+{
+    text-decoration: none;
+}
+.document2 a:hover
+{
+    color: red;
+    text-decoration: underline;
+}
+/*
+.header
+{
+    font-weight: bold;
+    font-size: 35px;
+}*/
+
+/*this style is for otpconfirmationpage.jsp page*/
+.signupform
+{
+    text-align: center;
+    margin-bottom: 10px;
+    border-top: 1px solid grey;
+    padding: 15px;
+    background-color: rgb(250,252,255);
+}
+.divLost
+{
+    background-color: rgb(0,70,0);
+    color: white;
+    padding: 3px;
+}
+.divLost a
+{
+    color: white;
+    text-decoration: none;
+}
+.divLost div a:hover
+{
+    color: yellow;
+}
+
+/* this style is for admipage.jsp*/
+.admin
+{
+    color: purple;
+    text-align: center;
+    font-family: Monotype Corsiva;
+    padding: 1px;
+    font-size: 20px;
+}
+.admin a
+{
+    text-decoration: none;
+}
+.admin a:hover
+{
+    text-decoration: underline;
+    color: red;
+}
+.adminMenu
+{
+    clear: both;
+    text-align: center;
+    font-size: 15px;
+}
+.adminMenu a
+{
+    color: white;
+    text-decoration: none;
+}
+.adminMenu a:hover
+{
+    font-weight: bold;
+    padding: 1px;
+    border: 1px solid white;
+}
+
+.adminSearch
+{
+    border: 1px solid white;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.uploadspecial
+{
+    background-color: rgba(245, 255, 250, 0.5);
+    text-align: center;
+}
+
+/*styling for buttons, notifications and formclass*/
+.input
+{
+    padding: 3px;
+    background-color: rgb(215, 240, 230);
+    border-radius: 4px;
+}
+.input:hover
+{
+    background-color: lightgreen;
+}
+
+/*styling for image button found at news post page*/
+.input2
+{
+    padding: 1px;
+    background-color: rgba(215, 240, 230, 0.5);
+    border-radius: 1px;
+}
+.input2:hover
+{
+    background-color: lightgreen;
+}
+
+.adminnotification
+{
+    font-size: 13px;
+    position: relative;
+    top: -8px;
+    color: yellow;
+    font-weight: bold;
+}
+.notification
+{
+    font-size: 13px;
+    position: relative;
+    top: -8px;
+    color: yellow;
+    font-weight: bold;
+}
+.formClass
+{
+    text-align: center;
+}
+
+/*styling for dynamic tables (Newswatch section, getusers and andminlist)*/
+.checkmate
+{
+    list-style: none; 
+    margin-top: 2px; 
+    margin-bottom: 2px; 
+    padding: 2px;
+}
+
+.tbh
+{
+    padding: 2px;
+}
+
+.tdmateheaderAdmin
+{
+    color: black;
+    background-color: palegreen;
+    border-bottom: 1px solid blue;
+}
+
+.tdmateAdmin
+{ 
+    background-color: rgba(240,240,245,0.6);
+    border-bottom: 1px solid blue;
+}
+
+.tdmateheader
+{ 
+    background-color: rgb(150,255,100);
+    border-bottom: 1px solid green;
+}
+
+.tdmate
+{ 
+    background-color: rgba(230,255,235,0.5);
+    border-bottom: 1px solid gold;
+}
+
+.tdwriter
+{
+    color: brown;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: gold;
+    border-bottom: 1px solid brown;
+}
+
+.tdstat
+{
+    color: white;
+    background-color: blue;
+    border-bottom: 1px solid white;
+}
+
+/*styling for the blinking click and free on homeepage*/
+.free
+{
+    font-size: 22px; 
+    color: red; 
+    font-weight: bold;
+    animation: movingImage linear 2s infinite 1s alternate;
+}
+
+a.free:hover
+{
+    color: blue;
+    animation: movingImage linear 0s infinite 1s alternate;
+}
+
+.free2
+{
+    font-size: 19px; 
+    color: red;
+    text-decoration: none;
+    animation: movingImage linear 2s infinite 1s alternate;
+}
+
+a.free2:hover
+{
+    color: blue;
+    animation: movingImage linear 0s infinite 1s alternate;
+}
+
+    @-webkit-keyframes movingImage
+    {
+        0%{opacity: 0;}
+        25%{opacity: 1;}
+        50%{opacity: 0;}
+        75%{opacity: 1;}
+        100%{opacity: 0;}
+    }    
+    @-moz-keyframes movingImage
+    {
+        0%{opacity: 0;}
+        25%{opacity: 1;}
+        50%{opacity: 0;}
+        75%{opacity: 1;}
+        100%{opacity: 0;}
+    }    
+    @-o-keyframes movingImage
+    {
+        0%{opacity: 0;}
+        25%{opacity: 1;}
+        50%{opacity: 0;}
+        75%{opacity: 1;}
+        100%{opacity: 0;}
+    }    
+    @keyframes movingImage
+    {
+        0%{opacity: 0;}
+        25%{opacity: 1;}
+        50%{opacity: 0;}
+        75%{opacity: 1;}
+        100%{opacity: 0;}
+    }
+
+/*styling for footer*/    
+.foot
+{
+    color: white;
+    background-color: brown;
+    text-align: justify;
+    margin-top: 5px;
+    clear: both;    
+}
+
+/*styling for registration form*/
+div form a
+{
+    color: green;
+    text-decoration: none;
+}
+
+div form a:hover
+{
+    font-weight: bold;
+    color: blue;
+}
+
+/*styling for account setup form*/
+.account_Setup
+{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+/*styling for confirmregistrationotp and otpconfirmationpage forms*/
+.otpconfirm
+{
+    clear: both;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(232, 255, 245, 0.1);
+}
+
+/*special for signup form input label and field*/
+.input_Label
+{
+    font-size: 15px;
+}
+.input_Field
+{
+    height: 27px; 
+    border-radius: 5px;
+}
+.input_Fieldx
+{
+    height: 27px; 
+    border-radius: 5px;
+}
+/*for password update*/
+.input_FieldG
+{
+    height: 27px; 
+    border-radius: 5px;
+}
+.input_FieldSpecial
+{
+    height: 27px; 
+    border-radius: 5px;
+}
+.input_FieldX /*this has no jQuery function but appears as .input_Field*/
+{
+    height: 27px; 
+    border-radius: 5px;
+}
+.input_FieldYY
+{
+    height: 27px; 
+    border-radius: 5px;
+}
+.error_Class
+{
+    border: 1px solid red;
+    box-shadow: 0px 0px 6px red;
+}
+.unmatched
+{
+    border: 1px solid orange;
+    box-shadow: 0px 0px 6px orange;
+}
+
+/*for styling other input fields*/
+.input_FieldA
+{
+    height: 20px;
+    border-radius: 5px;
+}
+.error_ClassA
+{
+    border: 2px solid gold;
+    box-shadow: 0px 0px 6px yellow;
+}
+
+/*this style is for post story page #more anchor tag*/
+.more_Images a
+{
+    color: blue;
+    margin-left: auto;
+    margin-right: auto;    
+    font-size: 17px;
+    text-decoration: none;
+}
+.more_Images a:hover
+{
+    color: red;
+    text-decoration: underline;
+}
+
+.uploaded_Image
+{
+    color: white;
+    margin-bottom: 60px;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid grey;
+    padding: 10px;
+    background-color: rgba(20,150,15,0.8);
+}
+
+.uploaded_Image a
+{
+    color: white;
+}
+
+.uploaded_Image a:hover
+{
+    color: red;
+}
+
+.linknewsFreeBlog
+{
+    border: 1px solid grey;
+    border-radius: 2px;
+    font-size: 17px;
+    text-decoration: none;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgba(232, 255, 245, 0.2)
+}
+.linknewsFreeBlog div
+{
+    text-decoration: none;
+    padding: 5px;
+}
+.linknewsFreeBlog div a
+{
+    text-decoration: none;
+}
+
+.linknewsFreeBlog a:hover
+{
+    text-decoration: underline;
+}
+.linknewsFreeBlog div:hover
+{
+    font-weight: bold;
+    color: red;
+    padding: 8px;
+    background-color: rgba(232, 255, 245, 0.8);
+}
+
+.aboutusIntro
+{
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    max-width: 1000px;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+div.aboutusIntro ol li span
+{
+    color: blue;
+    font-style: italic;
+}
+
+div.nav1 ol li a
+{
+    font-size: 18px;
+    color: blue;
+}
+
+.bloghead
+{
+    text-align: center;
+    color: green;
+    text-decoration: underline;
+}
+
+.catdiv
+{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1200px;
+}
+
+.category1
+{
+    background-color: orange;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.category2
+{
+    background-color: green;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.category3
+{
+    background-color: blue;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.category4
+{
+    background-color: purple;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.category5
+{
+    background-color: blueviolet;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.category6
+{
+    background-color: brown;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.category7
+{
+    background-color: black;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.category8
+{
+    background-color: red;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.category9
+{
+    background-color: yellowgreen;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    color: red;
+}
+
+.category1:hover
+{
+    background-color: yellow;
+    color: red;
+}
+
+.category2:hover
+{
+    background-color: lightgreen;
+    color: red;
+}
+
+.category3:hover
+{
+    background-color: cyan;
+    color: red;
+}
+
+.category4:hover
+{
+    background-color: lightpink;
+    color: red;
+}
+
+.category5:hover
+{
+    background-color: plum;
+    color: red;
+}
+
+.category6:hover
+{
+    background-color: bisque;
+    color: red;
+}
+
+.category7:hover
+{
+    background-color: grey;
+    color: white;
+}
+
+.category8:hover
+{
+    background-color: tomato;
+    color: white;
+}
+
+.category9:hover
+{
+    background-color: beige;
+    color: red;
+}
+
+.inboxImageCentering
+{
+    text-align: justify;
+}
+
+.inboxImageCentering img
+{
+    display: block;
+    margin: 0 auto;
+}
+
+.comment
+{
+    display: inline-block;
+}
+
+.comment button
+{
+    background-color: lightgreen;;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.comment button:hover
+{
+    background-color: rgb(215, 245, 200);
+}
+
+.commentBack a
+{
+    text-decoration: none;
+}
+
+.commentBack a:hover
+{
+    text-decoration: underline;
+}
+
+
+.commentandroid
+{
+    display: inline-block;
+}
+
+.commentandroid button
+{
+    background-color: lightgreen;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.commentandroid button:hover
+{
+    background-color: rgb(215, 245, 200);
+}
+
+.inputandroid
+{
+    padding: 5px;
+    background-color: rgb(215, 240, 230);
+    border-radius: 4px;
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 18px;
+}
+.inputandroid:hover
+{
+    background-color: lightgreen;
+}
+
+.prf
+{
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    max-width: 1000px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.prf1
+{
+    background-color: coral;
+    padding: 10px;
+    border-top-left-radius: 50%;
+}
+
+.prf2
+{
+    background-color: rgba(102,205,170, 0.5);
+    padding: 10px;
+    border-top-left-radius: 50%;
+}
+
+.px
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: green;
+}
+
+.pz
+{
+    font-size: 17px;
+}
+
+.ad
+{
+    font-size: 18px;
+    color: green;
+}
+
+.ad:hover
+{
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
+}
+
+.inputRed
+{
+    padding: 3px;
+    background-color: rgb(215, 240, 230);
+    border-radius: 4px;
+}
+.inputRed:hover
+{
+    background-color: red;
+    color: white;
+}
+
+.inputGreen
+{
+    padding: 3px;
+    background-color: rgb(215, 240, 230);
+    border-radius: 4px;
+}
+.inputGreen:hover
+{
+    background-color: green;
+    color: white;
+}
+.adEditx
+{
+    height: 27px; 
+    border-radius: 5px;
+    text-align: center; 
+    background-color: yellow; 
+    color: red;
+}
+.inputPause
+{
+    padding: 3px;
+    background-color: rgb(215, 240, 230);
+    border-radius: 4px;
+}
+.inputPause:hover
+{
+    background-color: yellowgreen;
+}
+
+.hbt
+{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.hbt:hover
+{
+    color: red;
+    font-style: italic;
+}
+
+pre
+{
+    white-space: pre-line;
+    text-align: justify;
+}

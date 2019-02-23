@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/sumpis">
+    <Resource driverClassName="com.mysql.jdbc.Driver" 
+            factory="org.apache.tomcat.jdbc.pool.DataSourceFactory" 
+            initialSize="10" 
+            maxActive="100" 
+            maxIdle="50" 
+            minEvictableIdleTimeMillis="60000" 
+            minIdle="10" 
+            name="jdbc/sumpisdatabase" 
+            password="dexter" 
+            suspectTimeout="60" 
+            timeBetweenEvictionRunsMillis="30000" 
+            type="javax.sql.DataSource" 
+            url="jdbc:mysql://localhost:8004/sumpisdb" 
+            username="root"/>
+</Context>
